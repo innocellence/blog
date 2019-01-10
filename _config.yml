@@ -11,7 +11,7 @@ google_analytics: UA-29851112-1
 disqus_shortname: innocellence
 
 # URL Prefixing
-url: http://innocellence.com
+url: blog.innocellence.com
 baseurl: 
 blogurl: blog.innocellence.com
 
@@ -40,15 +40,6 @@ defaults:
       type: "pages"
     values:
       layout: "page"   
-  -
-    scope:
-      path: "blog"
-      type: "pages"
-    values:
-      layout: "blog"
-      category: "blog"
-      lang: "en" 
-    
   - 
     scope: 
       path: ''
